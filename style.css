@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Khula', sans-serif;
+	color: #070707;
+	font-size: 18px;
+	line-height: 22px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* сверху снизу */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 32px 0;
+	border-bottom: 1px solid #828282;
+}
+
+ul li{
+	cursor: pointer;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Gilroy-Bold;
+
+	/* за высоту линии текста */
+}
+
+.container {
+	width: 945px;
+	margin: 0 auto;
+}
+
+.bio {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 40px 0 49px 0;
+}
+.main-banner {
+	width: 100%;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 47.3392px;
+	line-height: 59px;
+}
+.lang {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+}
+.ru {
+	color: #828282;
+}
+
+/* SECTION 1 */
+
+.about-section {
+	background: #f6f6f6;
+	text-align: center;
+	padding: 120px 0 107px 0;
+	margin-top: 104px;
+}
+.about-section p {
+	width: 400px;
+	margin: 0 auto;
+}
+.about-title {
+	font-size: 34px;
+	line-height: 42px;
+}
+
+/* section2 */
+.skills-section {
+	text-align: center;
+	padding: 91px 0 110px 0;
+}
+.section-title {
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.tools {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 83px;
+}
+
+.tools img {
+	width: 166px;
+}
+
+/* section 3 */
+.portfolio-section {
+	text-align: center;
+	background: #f6f6f6;
+	padding: 112px 0 96px 0;
+}
+.portfolio-section img {
+	width: inherit;
+}
+.portfolio-section p {
+	margin: 44px 0 99px 0;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 114px 0 100px 0;
+}
+
+footer button {
+	width: 180px;
+	height: 42px;
+	background: #070707;
+	color: white;
+	border-radius: 20px;
+	padding: 12px 29px;
+	border-style: none;
+	cursor: pointer;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	margin-top: 85px;
+}
+
+footer img {
+	width: 40px;
+}
+.sub-text {
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #828282;
+	margin-top: 45px;
+}
